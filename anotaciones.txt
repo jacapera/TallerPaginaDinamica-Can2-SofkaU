@@ -1,0 +1,15 @@
+mkdir "nombre de la carpeta"    //crear carpeta raiz del proyecto
+npx express-generator           //crear proyecto con estructura
+npm install                     //crea modulos para nodejs
+npm install nodemon --save-dev  //herramienta desarrollo para actualizar cambios
+
+/*
+*instruccion para debugear con nodejs
+*/
+"debug": "set DEBUG=tallerpaginadinamica-can2-sofkau:* & nodemon --inspect ./bin/www"
+
+npm install --save mongoose
+npm install --save body-parser
+
+
+db.getCollection("users").renameCollection("juego") // instrucción en mongo para renombrar una colleccion
